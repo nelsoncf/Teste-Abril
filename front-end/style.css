@@ -346,6 +346,46 @@ a:hover {
     margin: 0;
 }
 
+.mais-acessados {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    float: left;
+    background-color: #242424;
+}
+
+.mais-acessados::before {
+    content: "+ ACESSADOS";
+    padding-top: 5px;
+    width: 148px;
+    position: absolute;
+    left: 0px;
+    top: -1px;
+    font-size: 14px;
+    color: #fff;
+    padding-left: 20px;
+    background-image: url(images/bg-acessados.png);
+    height: 30px;
+    background-position-x: -1px;
+}
+
+.mais-acessados ul {
+    margin-bottom: 0;
+    margin-left: 160px;
+}
+
+.mais-acessados ul li {
+	display: inline-block;
+}
+
+.mais-acessados ul li a {
+    color: #fff;
+    line-height: 29px;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-right: 27px;
+}
+
 
 
 /*BOX DESTAQUES*/
