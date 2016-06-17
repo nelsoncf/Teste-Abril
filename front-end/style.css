@@ -309,6 +309,11 @@ a:hover {
 .teste-picture {
 	width: 100%;
 	overflow: hidden;
+	height: 120px;
+}
+
+.teste-picture img {
+	width: 100%;
 }
 
 .test-over {
